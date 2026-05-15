@@ -50,7 +50,7 @@
                 </div>
                 <div class="pt-1">
                   <h4 class="text-sm font-bold text-stone-900 uppercase tracking-widest mb-1">Instagram</h4>
-                  <a href="https://www.instagram.com/kokorokarae/" target="_blank" class="text-[#8B3A3A] hover:underline leading-relaxed text-base font-medium">@kokorokarae</a>
+                  <a href="https://www.instagram.com/kokorokarae/" target="_blank" class="text-[#8B3A3A] hover:underline leading-relaxed text-base font-medium">@kokorokara</a>
                 </div>
               </div>
 
