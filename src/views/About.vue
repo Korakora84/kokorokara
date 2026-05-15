@@ -1,3 +1,7 @@
+<script setup>
+import aboutImg from '../assets/images/aboute.jpeg'
+</script>
+
 <template>
   <div class="min-h-screen bg-white pt-40 pb-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -5,7 +9,7 @@
         <!-- Image -->
         <div class="hidden md:block relative h-[550px] lg:h-[600px] w-full max-w-md mx-auto rounded-3xl overflow-hidden shadow-2xl border border-[#8B3A3A]/10 p-2 bg-white/50">
           <div class="w-full h-full rounded-2xl overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1572454591674-2739f30d8c40?w=800&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-105 transition-transform duration-1000" alt="Pembuat Bunga (Florist)" />
+            <img :src="aboutImg" class="w-full h-full object-cover hover:scale-105 transition-transform duration-1000" alt="Pembuat Bunga (Florist)" />
           </div>
         </div>
 

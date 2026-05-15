@@ -2,6 +2,8 @@
 import { ref, onMounted, computed } from 'vue'
 import { RouterLink } from 'vue-router'
 import { supabase } from '../supabase'
+import home1 from '../assets/images/home1.jpeg'
+import home2 from '../assets/images/home2.jpeg'
 
 const homeCategories = ref([])
 const homeProducts = ref([])
@@ -140,7 +142,7 @@ const formatPrice = (price) => {
             class="absolute top-10 left-0 w-64 h-80 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white rotate-[-6deg] z-10 hover:rotate-0 hover:z-30 transition-transform duration-500"
           >
             <img
-              src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?q=80&w=800&auto=format&fit=crop"
+              :src="home1"
               class="w-full h-full object-cover"
               alt="Mawar Merah Muda"
             />
@@ -149,7 +151,7 @@ const formatPrice = (price) => {
             class="absolute bottom-10 right-10 w-72 h-96 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white rotate-[4deg] z-20 hover:rotate-0 hover:z-30 transition-transform duration-500"
           >
             <img
-              src="https://images.unsplash.com/photo-1591886960571-74d43a9d4166?q=80&w=800&auto=format&fit=crop"
+              :src="home2"
               class="w-full h-full object-cover"
               alt="Buket Warna Pastel"
             />
