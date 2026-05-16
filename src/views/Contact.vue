@@ -38,7 +38,7 @@
                 </div>
                 <div class="pt-1">
                   <h4 class="text-sm font-bold text-stone-900 uppercase tracking-widest mb-1">Opening Hours</h4>
-                  <p class="text-stone-500 leading-relaxed text-base">9 AM - 7 PM</p>
+                  <p class="text-stone-500 leading-relaxed text-base">9 AM - 9 PM</p>
                 </div>
               </div>
 
