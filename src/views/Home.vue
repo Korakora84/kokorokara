@@ -105,21 +105,23 @@ const formatPrice = (price) => {
           <span
             class="inline-block py-1 px-3 rounded-full bg-rose-200 text-rose-900 text-sm font-semibold tracking-wider mb-6 border border-rose-300"
           >
-            PREMIUM FLOWERS QUALITY
+            PREMIUM KOKOROKARA BY BALI BLOSSOM
           </span>
           <h1 class="text-5xl md:text-6xl font-serif text-[#4A2525] mb-6 leading-tight">
-            <!-- Maroon/Dark Brown text -->
             Let the Flowers <br />
             <span class="text-rose-600 italic text-4xl md:text-[3.5rem] mt-2 inline-block"
               >tells a Story</span
             >
           </h1>
+
           <p
             class="text-lg md:text-xl text-stone-600 mb-10 font-light max-w-lg mx-auto md:mx-0 leading-relaxed border-l-4 border-rose-200 pl-4"
           >
-            Handcrafted flower bouquets with elegant soft colors, ready to perfect your every
-            special moment.
+            Handcrafted flower bouquets with elegant soft colors. Temukan koleksi
+            <strong>kokorokara</strong> terbaik dan layanan <strong>buang abalu</strong> yang
+            dikurasi khusus oleh tim <strong>Bali Blossom</strong> untuk momen berharga Anda.
           </p>
+
           <div class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
             <RouterLink
               to="/catalog"
@@ -141,20 +143,12 @@ const formatPrice = (price) => {
           <div
             class="absolute top-10 left-0 w-64 h-80 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white rotate-[-6deg] z-10 hover:rotate-0 hover:z-30 transition-transform duration-500"
           >
-            <img
-              :src="home1"
-              class="w-full h-full object-cover"
-              alt="Mawar Merah Muda"
-            />
+            <img :src="home1" class="w-full h-full object-cover" alt="Mawar Merah Muda" />
           </div>
           <div
             class="absolute bottom-10 right-10 w-72 h-96 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white rotate-[4deg] z-20 hover:rotate-0 hover:z-30 transition-transform duration-500"
           >
-            <img
-              :src="home2"
-              class="w-full h-full object-cover"
-              alt="Buket Warna Pastel"
-            />
+            <img :src="home2" class="w-full h-full object-cover" alt="Buket Warna Pastel" />
           </div>
         </div>
       </div>
