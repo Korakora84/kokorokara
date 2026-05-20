@@ -6,11 +6,21 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://baliblossom.com/</loc>
   <lastmod>2026-05-20T15:20:02+00:00</lastmod>
 </url>
-
+<url>
+  <loc>https://baliblossom.com/catalog</loc>
+  <lastmod>2026-05-20T15:20:02+00:00</lastmod>
+</url>
+<url>
+  <loc>https://baliblossom.com/about</loc>
+  <lastmod>2026-05-20T15:20:02+00:00</lastmod>
+</url>
+<url>
+  <loc>https://baliblossom.com/contact</loc>
+  <lastmod>2026-05-20T15:20:02+00:00</lastmod>
+</url>
 
 </urlset>
