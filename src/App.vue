@@ -33,9 +33,9 @@ const isDashboardFlow = computed(() => {
           </div>
           <p class="max-w-sm text-[#D7BABA] leading-relaxed">
             From the heart of the city, we channel passion into every petal.
-            <strong>Bali Blossom</strong> menghadirkan koleksi <strong>kokorokara</strong> eksklusif
-            dan melayani tradisi <strong>buang abalu</strong> untuk menyempurnakan segala momen
-            perayaan Anda.
+            <strong>Bali Blossom</strong> offers exclusive <strong>kokorokara</strong> collections
+            and curates beautiful <strong>floral arrangements</strong> to perfect all your
+            celebratory moments.
           </p>
         </div>
         <div>

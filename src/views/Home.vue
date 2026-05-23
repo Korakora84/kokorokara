@@ -117,9 +117,9 @@ const formatPrice = (price) => {
           <p
             class="text-lg md:text-xl text-stone-600 mb-10 font-light max-w-lg mx-auto md:mx-0 leading-relaxed border-l-4 border-rose-200 pl-4"
           >
-            Handcrafted flower bouquets with elegant soft colors. Temukan koleksi
-            <strong>kokorokara</strong> terbaik dan layanan <strong>buang abalu</strong> yang
-            dikurasi khusus oleh tim <strong>Bali Blossom</strong> untuk momen berharga Anda.
+            Handcrafted flower bouquets with elegant soft colors. Discover the best
+            <strong>kokorokara</strong> collection and premium <strong>floral arrangement</strong> services
+            specially curated by the <strong>Bali Blossom</strong> team for your precious moments.
           </p>
 
           <div class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
@@ -195,7 +195,7 @@ const formatPrice = (price) => {
               <p class="text-stone-500 max-w-2xl mx-auto">
                 {{
                   category.description ||
-                  'Temukan desain khas kami, dikurasi khusus untuk melengkapi momen spesial Anda.'
+                  'Discover our signature designs, specially curated to complement your special moments.'
                 }}
               </p>
             </div>
